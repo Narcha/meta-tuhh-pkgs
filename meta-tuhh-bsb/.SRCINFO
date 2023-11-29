@@ -1,0 +1,13 @@
+pkgbase = meta-tuhh-bsb
+	pkgdesc = Metapackage for the course "Betriebssystembau"
+	pkgver = 0.0.1
+	pkgrel = 1
+	url = https://github.com/Narcha/meta-tuhh-pkgs
+	arch = any
+	license = GPL-3.0-or-later
+	depends = qemu-system-x86
+	depends = qemu-ui-gtk
+	depends = qemu-audio-pa
+	depends = nasm
+
+pkgname = meta-tuhh-bsb
