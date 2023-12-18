@@ -1,0 +1,12 @@
+pkgbase = meta-tuhh-mps
+	pkgdesc = Meta package for the course "Massively Parallel Systems"
+	pkgver = 1
+	pkgrel = 1
+	url = https://github.com/Narcha/meta-tuhh-pkgs
+	arch = any
+	license = GPL-3.0-or-later
+	depends = base-devel
+	depends = systemc
+	depends = cuda
+
+pkgname = meta-tuhh-mps
