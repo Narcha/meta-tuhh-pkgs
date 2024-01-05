@@ -1,6 +1,6 @@
 pkgname=meta-tuhh-bsb
 pkgver=1
-pkgrel=1
+pkgrel=2
 pkgdesc='Meta package for the course "Betriebssystembau"'
 url='https://github.com/Narcha/meta-tuhh-pkgs'
 arch=('any')
@@ -8,6 +8,6 @@ license=('GPL-3.0-or-later')
 depends=(
   'qemu-system-x86'
   'qemu-ui-gtk'
-  'qemu-audio-pa'
+  'qemu-audio-pipewire'
   'nasm'
 )
