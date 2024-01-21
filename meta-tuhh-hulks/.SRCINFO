@@ -1,0 +1,13 @@
+pkgbase = meta-tuhh-hulks
+	pkgdesc = Meta package for development work at the HULKs
+	pkgver = 1
+	pkgrel = 1
+	url = https://github.com/Narcha/meta-tuhh-pkgs
+	arch = any
+	license = GPL-3.0-or-later
+	depends = rustup
+	depends = clang
+	depends = cmake
+	depends = hdf5
+
+pkgname = meta-tuhh-hulks
