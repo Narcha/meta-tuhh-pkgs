@@ -6,7 +6,7 @@ url='https://github.com/Narcha/meta-tuhh-pkgs'
 arch=('any')
 license=('GPL-3.0-or-later')
 depends=(
-  base-devel
-  systemc
-  cuda
+  'base-devel'
+  'systemc'
+  'cuda'
 )
